@@ -4,7 +4,6 @@ import os
 from collections import Mapping
 
 app = Flask(__name__)
-app.config['UPLOAD_FOLDER'] = PEOPLE_FOLDER
 CORS(app)
 
 
